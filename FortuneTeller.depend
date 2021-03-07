@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1548769330 source:g:\computer science\cpp files\fortuneteller\main.cpp
+	<iostream>
+	"CARD.H"
+	<chrono>
+	<thread>
+
+1548769148 g:\computer science\cpp files\fortuneteller\include\card.h
+	<stdlib.h>
+	<vector>
+	<string>
+
+1548769198 source:g:\computer science\cpp files\fortuneteller\src\card.cpp
+	"Card.h"
+	<ctime>
+	<random>
+	<iostream>
+	<fstream>
+
+1555286220 source:f:\computer science\cpp files\fortuneteller\main.cpp
+	<iostream>
+	"DIVINER.H"
+	<chrono>
+	<thread>
+
+1555545454 f:\computer science\cpp files\fortuneteller\include\card.h
+	<stdlib.h>
+	<vector>
+	<string>
+
+1555545464 source:f:\computer science\cpp files\fortuneteller\src\card.cpp
+	"Card.h"
+	<ctime>
+	<random>
+	<iostream>
+	<fstream>
+
+1548770498 source:g:\computer science\cpp files\fortuneteller\src\diviner.cpp
+	"Diviner.h"
+
+1548770498 g:\computer science\cpp files\fortuneteller\include\diviner.h
+	"CARD.H"
+
+1555972760 source:f:\computer science\cpp files\fortuneteller\src\diviner.cpp
+	"Diviner.h"
+
+1555285788 f:\computer science\cpp files\fortuneteller\include\diviner.h
+	"CARD.H"
+

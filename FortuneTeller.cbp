@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FortuneTeller" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FortuneTeller" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="src" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FortuneTeller" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/CARD.H" />
+		<Unit filename="include/DIVINER.H" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CARD.CPP" />
+		<Unit filename="src/DIVINER.CPP" />
+		<Unit filename="src/death.txt" />
+		<Unit filename="src/judgement.txt" />
+		<Unit filename="src/justice.txt" />
+		<Unit filename="src/strength.txt" />
+		<Unit filename="src/temperance.txt" />
+		<Unit filename="src/the_chariot.txt" />
+		<Unit filename="src/the_devil.txt" />
+		<Unit filename="src/the_emperor.txt" />
+		<Unit filename="src/the_empress.txt" />
+		<Unit filename="src/the_fool.txt" />
+		<Unit filename="src/the_hanged_man.txt" />
+		<Unit filename="src/the_hermit.txt" />
+		<Unit filename="src/the_hierophant.txt" />
+		<Unit filename="src/the_high_priestess.txt" />
+		<Unit filename="src/the_lovers.txt" />
+		<Unit filename="src/the_magician.txt" />
+		<Unit filename="src/the_moon.txt" />
+		<Unit filename="src/the_star.txt" />
+		<Unit filename="src/the_sun.txt" />
+		<Unit filename="src/the_tower.txt" />
+		<Unit filename="src/the_world.txt" />
+		<Unit filename="src/wheel_of_fortune.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
